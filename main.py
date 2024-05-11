@@ -46,7 +46,7 @@ chain = RetrievalQA.from_chain_type(llm=llm,
                                    return_source_documents=False,
                                    chain_type_kwargs={'prompt': qa_prompt})
 
-user_input = "Tell me about Rainfall Measurement of the paper"
+user_input = "Tell me about Fast RCNN"
 
 
 result=chain({'query':user_input})
